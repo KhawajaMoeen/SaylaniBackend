@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_container{
+  background-image: url(./assests/signup.svg);
+  background-position: center;
+  background-size: 700px;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.sub_container{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 500px;
+  padding: 105px 0;
+}
+
+.img_container{
+  border: 1px solid;
+  width: fit-content;
+}
+
+.img{
+  width: 500px;
+  height: auto;
+}
+
+.signup_container{
+  border-radius: 15px;
+  width: fit-content;
+  height: fit-content;
+  background-color: #c6d8ff;
+  padding: 25px 30px;
+}
+
+
+.signup_content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.inp_container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inp_container input{
+  height: 35px;
+  width: 210px;
+  border: none;
+  padding: 17px 15px;
+}
+
+input::placeholder{
+  color: rgb(179, 177, 177);
+}
+
+.btn_container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn_container button{
+  height: 35px;
+  width: auto;
+  background-color: #007cff;
+  border: none;
+  color: white;
+  font-size: medium;
+  box-shadow: 0 2px 12px rgba(85, 85, 85, 0.2);
+}
+
+.btn_container label{
+  color: rgb(92, 90, 90);
+  font-size: small;
+}
+
+.btn_container label a{
+  color: rgb(92, 90, 90);
+  font-size: small;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.main_Container2{
+  background-image: url(./assests/login.svg);
+  background-position: center;
+  background-size: 800px;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.body_container{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 510px;
+  padding-left: 49%;
+}
+
+.login_container{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  background-color: #c6d8ff;
+  padding: 25px 25px;
+  text-align: center;
+  gap: 10px;
+}
+
+.label_container label{
+  color: rgb(92, 90, 90);
+  font-size: small;
+  font-weight: 600;
+}
+
+.checkbox_container{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+.checkbox_container input{
+  height: 15px;
+  width: 20px;
+}
